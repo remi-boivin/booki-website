@@ -82,3 +82,74 @@ section:nth-child(3) {
     width: 30%;
     height: 70px;
 }
+
+section:nth-child(4) {
+    display: flex;
+    margin: 3% 0 0 0;
+    height: 79px;
+    width: 80%;
+    position: absolute;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+section:nth-child(4) div p {
+    display: flex;
+}
+
+section:nth-child(4) div div div  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+    width: 38%;
+    height: 85px;
+    border-radius: 50%;
+}
+
+section:nth-child(4) div div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section:nth-child(4) div div p{
+    /* padding: 0 50% 0 50%; */
+    /* display: flex;
+    justify-content: center; */
+    padding-right: 11%;
+    padding-left: 9%;
+}
+
+div.item:nth-child(2) > div:nth-child(1) {
+    
+}
+
+.item {
+	display: flex;
+	height: 100%;
+	width: 15%;
+	margin: 0 2% 0 2%;
+	border-radius: 50px 50px 50px 50px;
+	border: 3px solid #F2F2F2;
+}
+
+div.item:nth-child(5) {
+    width: 20%;    
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+div.item:nth-child(5) > div:nth-child(1) > p:nth-child(2) {
+    width: 0%;
+}
+
+div.item:nth-child(5) div {
+    width: 55%;
+}
+
+.item div div .fas {
+    color:0065FC;
+}
