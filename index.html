@@ -1,60 +1,57 @@
 <html>
 
 <head>
+    <title></title>
     <meta name="description" content="Page description. No longer than 155 characters." />
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary">
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Title Here" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.example.com/" />
-    <meta property="og:image" content="http://example.com/image.jpg" />
-    <meta property="og:description" content="Description Here" />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 </head>
 
 <body>
     <header>
+        <img src="images/logo/Booki.png" alt="logo" />
         <nav>
-            <picture>
-                <source srcset="images/logo/Booki.png" media="(max-width: 768px)">
-                <img src="images/logo/Booki@3x.png" alt="logo" />
-            </picture>
-            <div class="navbar">
-                <a href="#">Hébergements</a>
-                <a href="#">Activités</a>
-            </div>
+            <ul>
+                <li><a href="#">Hébergements</a></li>
+                <li> <a href="#">Activités</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <div class="container">
-
-            <h2>Trouver votre Hébergement pour des vacances de rêves</h2>
+    <main class="container">
+        <h2>Trouver votre Hébergement pour des vacances de rêves</h2>
+        <p>En plein centre ville ou en pleine nature</p>
+        <section>
+            <div> 
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+            </div>
             <form action="#">
-                <input type="text"></input>
+                <input type="text" value="Marseille, France" />
                 <button type="submit">Rechercher</button>
             </form>
-
-        </div>
+        </section>
+        <section id="filter">
+            <p>Filtres</p>
+            <div>
+                <div></div>
+                <p>Economique</p>
+            </div>
+            <div>
+                <div></div>
+                <p>Familial</p>
+            </div>
+            <div>
+                <div></div>
+                <p>Romantique</p>
+            </div>
+            <div>
+                <div></div>
+                <p>Animaux autorisés</p>
+            </div>
+        </section>
     </main>
-    <footer id="footer">
-        <div class="footer-elem">
-            <h3>A propos</h3>
-            <a href="#">Fonctionnement du site</a></br>
-            <a href="#">Conditions générales de ventes</a></br>
-            <a href="#">Données et confidentialité</a></br>
-        </div>
-        <div class="footer-elem">
-            <h3>Nos Hébergements</h3>
-            <a href="#">Charte qualité</a></br>
-            <a href="#">Soumettre votre hôtel</a></br>
-        </div>
-        <div class="footer-elem">
-            <h3 style="display: flex;justify-content:flex-end;">Assistance</h3>
-            <a href="#">Centre d'aide</a></br>
-            <a href="#">Nous contacter</a></br>
-        </div>
-    </footer>
 </body>
 
 </html>
