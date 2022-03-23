@@ -1,0 +1,411 @@
+body {
+    width: 95%;
+    margin: 0 0 0 4%;
+    margin-right: 4%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 38px;
+    width: 92px
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 10px 0 20px;
+}
+
+a:hover {
+    color: rgb(71, 71, 255);
+    border-top: 1px solid rgb(71, 71, 252);
+    padding-top: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+form button {
+    color: white;
+    border-radius: 0 10px 10px 0;
+    width: 80%;
+    background-color: #0d67ee;
+    font-weight: bold;
+    border: none;
+}
+
+#search-media {
+    display: none;
+}
+
+#button-search-desktop {
+    display: block;
+}
+
+input {
+    display: flex;
+    width: 100%;
+    border: none;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-left: 1px;
+}
+
+.search div i {
+    margin-top: 8px;
+    width: 30px;
+    margin-left: 20px;
+    height: 10px;
+}
+
+#search-icon {
+    display: none;
+}
+
+.search div {
+    border-radius: 10px 0 0 10px;
+    border: 3px solid #F2F2F2;
+    background-color: rgba(223, 217, 217, 0.767);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+
+/*filtre*/
+
+#filtre-conteneur {
+    display: flex;
+}
+
+section .element-filtre i {
+    padding-left: 0;
+}
+
+.element-filtre {
+    border: 2px solid rgb(214, 213, 213);
+    border-radius: 30px;
+    border-left: none;
+    margin-right: 20px;
+}
+
+
+/* size-filtre*/
+
+
+/* .element-filtre:nth-child(2) {
+  width:72.5%;
+}
+
+.element-filtre:nth-child(3) {
+  width:58.5%;
+}
+
+.element-filtre:nth-child(4) {
+  width:69.5%;
+} */
+
+strong {
+    padding: 10px 20px 8px 10px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+}
+
+.icone i {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* width -> pour apporter
+de l'espace entre les éléments*/
+
+.icone i {
+    color: rgba(12, 75, 250, 0.932);
+    width: 40px;
+    height: 40px;
+    border-radius: 45% 45% 45% 45%;
+    background-color: rgb(228, 238, 252);
+    margin: -2px;
+}
+
+
+/*hebergement-marseille*/
+
+.enable {
+    color: blue;
+}
+
+.disable {
+    color: gray;
+}
+
+/* Hébergement */
+
+.row-hebergement {
+    display: flex;
+    width: 96.5%;
+}
+
+.row-hebergement .row-container {
+    border-radius: 5%;
+    /* width: 100% !important; */
+    padding: 0.5% 0.5% 1% 0.5%;
+    background-color: rgb(240, 240, 240);
+    height: fit-content;
+}
+
+.ligne-1 {
+    width: 91.4% !important;
+    max-height: 30% !important;
+    display: flex;
+    margin: 0 0 0 2.4%;
+}
+
+.row-hebergement div h3 {
+    margin: 3.5% 0 0 3%;
+}
+
+.ligne-1 .colonne-1 {
+    border: solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    margin: 2% 0 0 3%;
+    box-shadow: 1px 5px 5px 5px rgb(223, 223, 223);
+}
+
+.colonne-1 h4,
+.colonne-1 span {
+    padding: 0 0 0 5%;
+}
+
+.stars-aside {
+    padding: 5% 0 1% 5% !important;
+}
+
+.element-bas {
+    margin: 0 0 0 6%;
+}
+
+.colonne-1 img {
+    width: 100%;
+    border-radius: 9px 9px 0 0;
+}
+
+.icon-responsive {
+    background-color: white !important;
+    display: flex;
+    color: blue;
+    font-size: 10px;
+}
+
+/*Les plus populaires*/
+
+aside {
+    width: 80%;
+    border-radius: 5%;
+    margin: 0 0 0 3%;
+    /* flex-grow: 1; */
+    background: rgb(240, 240, 240);
+    /* height: fit-content; */
+    /* justify-content: space-between; */
+}
+
+.col-aside div {
+    /* width:80%; */
+    background-color: white;
+
+}
+
+.img-container {
+    margin: 1.5%;
+    width: 45% !important;
+    overflow: hidden;
+    border-radius: 8% 0 0 8%;
+}
+
+aside img {
+    margin: 0 0 0 -30%;
+    width: 290px !important;
+    height: 200px !important;
+}
+
+.col-asside {
+    /* width: 88%; */
+    /* margin: 0 0 0 5%; */
+    margin: 5% 0 1% 6%;
+    height: 180px;
+    border-radius: 6.5%;
+}
+
+.col-asside {
+    display: flex;
+    background-color: white;
+    margin-right: 6.5%;
+
+    /* flex-direction: row !important; */
+}
+
+#popular {
+    /* margin: 5% 5% 0 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside img {
+    width: 40%;
+    height: auto;
+    border-radius: 10% 0 0 10%;
+}
+
+
+/*Activités à Marseille*/
+
+
+/* .container-activite {
+    margin-top: -48%;
+}
+
+#element-activite {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3px;
+}
+
+#element-activite img {
+    width: 260px;
+}
+
+.colonne-vieux-port {
+    box-shadow: 0 7px 10px 8px rgb(247, 247, 247);
+}
+
+.iles-frioul {
+    padding-top: 15px;
+    box-shadow: 0px 0px 5px 8px rgb(247, 247, 247);
+}
+
+.colonne-vieux-port img {
+    height: 345px;
+}
+
+.fort-pomegues {
+    box-shadow: 1px 4px 4px 6px rgb(247, 247, 247);
+}
+
+.fort-pomegues img {
+    height: 168px;
+}
+
+.parc-calanques {
+    box-shadow: 0 7px 10px 8px rgb(247, 247, 247);
+}
+
+.parc-calanques img {
+    height: 345px;
+}
+
+.notre-dame {
+    box-shadow: 3px 10px 3px 8px rgb(247, 247, 247);
+}
+
+.parc-longchamp {
+    padding-top: 15px;
+    box-shadow: 5px 10px 6px 2px rgb(247, 247, 247);
+}
+
+.colonne-garde-longchamp img {
+    height: 138px;
+}
+
+#element-activite .legende-port {
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    border: rgb(255, 255, 255) solid;
+    height: 45px;
+}
+
+#element-activite .legende-pomegues {
+    border-radius: 0 0 8px 8px;
+    border: rgb(255, 255, 255) solid;
+    height: 45px;
+}
+
+#element-activite .legende-frioul {
+    border-radius: 0 0 8px 8px;
+    border: rgb(255, 255, 255) solid;
+    height: 45px;
+}
+
+#element-activite .legende-calanques {
+    border-radius: 0 0 8px 8px;
+    border: rgb(255, 255, 255) solid;
+    height: 45px;
+}
+
+#element-activite .legende-notre-dame {
+    border-radius: 0 0 8px 8px;
+    border: rgb(255, 255, 255) solid;
+    height: 45px;
+}
+
+#element-activite .legende-longchamp {
+    border-radius: 0 0 8px 8px;
+    border: rgb(255, 255, 255) solid;
+    height: 45px;
+} */
+
+
+/*pied de page*/
+
+
+/* .pied-de-page {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    margin: 78px -50px 0 -50px;
+    padding: 2% 26% 2% 5%;
+}
+
+.pied-de-page {
+    background-color: rgb(228, 228, 228);
+}
